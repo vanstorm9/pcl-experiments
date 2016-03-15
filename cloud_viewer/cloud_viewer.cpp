@@ -31,11 +31,17 @@ viewerPsycho (pcl::visualization::PCLVisualizer& viewer)
     user_data++;
 }
      
-int
-main ()
+int main (int argc, char *argv[])
 {
+	
+    if(argc != 2)
+    {
+ 	cout << "You need to type in format: ./program_name file_path_name \n";
+	return 0;
+    }
+
     pcl::PointCloud<pcl::PointXYZRGBA>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZRGBA>);
-    pcl::io::loadPCDFile ("test_pcd.pcd", *cloud);
+    pcl::io::loadPCDFile (argv[1], *cloud);
      
     pcl::visualization::CloudViewer viewer("Cloud Viewer");
      

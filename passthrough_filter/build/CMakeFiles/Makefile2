@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl
 CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/passthrough_filter/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/passthrough.dir
+# Target rules for target CMakeFiles/passthroughFilter.dir
 
 # All Build rule for target.
-CMakeFiles/passthrough.dir/all:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/depend
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/build
+CMakeFiles/passthroughFilter.dir/all:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/depend
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/passthrough_filter/build/CMakeFiles  1
-	@echo "Built target passthrough"
-.PHONY : CMakeFiles/passthrough.dir/all
+	@echo "Built target passthroughFilter"
+.PHONY : CMakeFiles/passthroughFilter.dir/all
 
 # Include target in all.
-all: CMakeFiles/passthrough.dir/all
+all: CMakeFiles/passthroughFilter.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/passthrough.dir/rule: cmake_check_build_system
+CMakeFiles/passthroughFilter.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/passthrough_filter/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/passthrough.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/passthroughFilter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/passthrough_filter/build/CMakeFiles 0
-.PHONY : CMakeFiles/passthrough.dir/rule
+.PHONY : CMakeFiles/passthroughFilter.dir/rule
 
 # Convenience name for target.
-passthrough: CMakeFiles/passthrough.dir/rule
-.PHONY : passthrough
+passthroughFilter: CMakeFiles/passthroughFilter.dir/rule
+.PHONY : passthroughFilter
 
 # clean rule for target.
-CMakeFiles/passthrough.dir/clean:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/clean
-.PHONY : CMakeFiles/passthrough.dir/clean
+CMakeFiles/passthroughFilter.dir/clean:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/clean
+.PHONY : CMakeFiles/passthroughFilter.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/passthrough.dir/clean
+clean: CMakeFiles/passthroughFilter.dir/clean
 .PHONY : clean
 
 #=============================================================================

@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named passthrough
+# Target rules for targets named passthroughFilter
 
 # Build rule for target.
-passthrough: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 passthrough
-.PHONY : passthrough
+passthroughFilter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 passthroughFilter
+.PHONY : passthroughFilter
 
 # fast build rule for target.
-passthrough/fast:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/build
-.PHONY : passthrough/fast
+passthroughFilter/fast:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/build
+.PHONY : passthroughFilter/fast
 
-passthrough.o: passthrough.cpp.o
-.PHONY : passthrough.o
+src/PCL_passthrough_filter.o: src/PCL_passthrough_filter.cpp.o
+.PHONY : src/PCL_passthrough_filter.o
 
 # target to build an object file
-passthrough.cpp.o:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/passthrough.cpp.o
-.PHONY : passthrough.cpp.o
+src/PCL_passthrough_filter.cpp.o:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/src/PCL_passthrough_filter.cpp.o
+.PHONY : src/PCL_passthrough_filter.cpp.o
 
-passthrough.i: passthrough.cpp.i
-.PHONY : passthrough.i
+src/PCL_passthrough_filter.i: src/PCL_passthrough_filter.cpp.i
+.PHONY : src/PCL_passthrough_filter.i
 
 # target to preprocess a source file
-passthrough.cpp.i:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/passthrough.cpp.i
-.PHONY : passthrough.cpp.i
+src/PCL_passthrough_filter.cpp.i:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/src/PCL_passthrough_filter.cpp.i
+.PHONY : src/PCL_passthrough_filter.cpp.i
 
-passthrough.s: passthrough.cpp.s
-.PHONY : passthrough.s
+src/PCL_passthrough_filter.s: src/PCL_passthrough_filter.cpp.s
+.PHONY : src/PCL_passthrough_filter.s
 
 # target to generate assembly for a file
-passthrough.cpp.s:
-	$(MAKE) -f CMakeFiles/passthrough.dir/build.make CMakeFiles/passthrough.dir/passthrough.cpp.s
-.PHONY : passthrough.cpp.s
+src/PCL_passthrough_filter.cpp.s:
+	$(MAKE) -f CMakeFiles/passthroughFilter.dir/build.make CMakeFiles/passthroughFilter.dir/src/PCL_passthrough_filter.cpp.s
+.PHONY : src/PCL_passthrough_filter.cpp.s
 
 # Help Target
 help:
@@ -145,11 +145,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... passthrough"
+	@echo "... passthroughFilter"
 	@echo "... rebuild_cache"
-	@echo "... passthrough.o"
-	@echo "... passthrough.i"
-	@echo "... passthrough.s"
+	@echo "... src/PCL_passthrough_filter.o"
+	@echo "... src/PCL_passthrough_filter.i"
+	@echo "... src/PCL_passthrough_filter.s"
 .PHONY : help
 
 

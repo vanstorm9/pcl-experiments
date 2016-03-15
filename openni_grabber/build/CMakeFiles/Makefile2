@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_grabber
+CMAKE_SOURCE_DIR = /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_grabber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_grabber/build
+CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_grabber/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/openni_grabber.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl
 CMakeFiles/openni_grabber.dir/all:
 	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/depend
 	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles  1
 	@echo "Built target openni_grabber"
 .PHONY : CMakeFiles/openni_grabber.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/openni_grabber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/openni_grabber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openni_grabber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_grabber/build/CMakeFiles 0
 .PHONY : CMakeFiles/openni_grabber.dir/rule
 
 # Convenience name for target.
