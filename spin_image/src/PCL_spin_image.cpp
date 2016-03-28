@@ -18,6 +18,7 @@ main(int argc, char** argv)
 	// Read a PCD file from disk.
 	if (pcl::io::loadPCDFile<pcl::PointXYZ>(argv[1], *cloud) != 0)
 	{
+		cout << "Returning -1\n";
 		return -1;
 	}
 

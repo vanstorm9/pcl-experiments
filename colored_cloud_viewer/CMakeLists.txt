@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+project(nicv)
+# Activate this for use with a debugger
+# SET(CMAKE_BUILD_TYPE RelWithDebInfo )
+find_package(PCL 1.2 REQUIRED)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+add_executable (nicv main.cpp)
+target_link_libraries (nicv ${PCL_LIBRARIES})

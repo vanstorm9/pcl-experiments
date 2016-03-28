@@ -12,7 +12,7 @@
        if (!viewer.wasStopped())
          viewer.showCloud (cloud);
      
-	 pcl::io::savePCDFileASCII("test_pcd.pcd", cloud);
+	 //pcl::io::savePCDFileASCII("test_pcd.pcd", cloud);
 	}
 
      void run ()

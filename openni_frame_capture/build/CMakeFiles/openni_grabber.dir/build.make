@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture
+CMAKE_SOURCE_DIR = /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build
+CMAKE_BINARY_DIR = /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openni_grabber.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/openni_grabber.dir/flags.make
 
 CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o: CMakeFiles/openni_grabber.dir/flags.make
 CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o: ../openni_grabber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o -c /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o -c /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp
 
 CMakeFiles/openni_grabber.dir/openni_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openni_grabber.dir/openni_grabber.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp > CMakeFiles/openni_grabber.dir/openni_grabber.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp > CMakeFiles/openni_grabber.dir/openni_grabber.cpp.i
 
 CMakeFiles/openni_grabber.dir/openni_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openni_grabber.dir/openni_grabber.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp -o CMakeFiles/openni_grabber.dir/openni_grabber.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp -o CMakeFiles/openni_grabber.dir/openni_grabber.cpp.s
 
 CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o.requires:
 .PHONY : CMakeFiles/openni_grabber.dir/openni_grabber.cpp.o.requires
@@ -205,6 +205,6 @@ CMakeFiles/openni_grabber.dir/clean:
 .PHONY : CMakeFiles/openni_grabber.dir/clean
 
 CMakeFiles/openni_grabber.dir/depend:
-	cd /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build /home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/build/CMakeFiles/openni_grabber.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build /home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/build/CMakeFiles/openni_grabber.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openni_grabber.dir/depend
 

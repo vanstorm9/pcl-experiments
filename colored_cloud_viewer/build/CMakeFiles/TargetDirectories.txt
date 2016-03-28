@@ -1,0 +1,1 @@
+/home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/colored_cloud_viewer/build/CMakeFiles/nicv.dir

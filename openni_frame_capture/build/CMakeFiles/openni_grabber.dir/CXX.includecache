@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/anthony/Documents/Programming/Kinect/C/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp
+/home/anthony/Documents/Programming/Kinect/C++/test-scripts/pcl-experiments/openni_frame_capture/openni_grabber.cpp
 pcl/io/openni_grabber.h
 -
 pcl/visualization/cloud_viewer.h
